@@ -1,9 +1,6 @@
 {
     "width": 2560,
     "height": 1080,
-    "backgroundOpacity": 0.5,
     "weatherLocation": "Budapest",
-    "timeWidgetFontSize": 36,
-    "weatherWidgetFontSize": 56,
     "offlineWallpaperPath": "/home/suni29/Pictures/Wallpapers/SurfacePro/dark-mountain-valley-wheat-field.jpg"
 }
