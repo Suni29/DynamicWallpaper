@@ -1,4 +1,4 @@
-# Dynamic Wallpaper (For only GNOME right now)
+# Dynamic Wallpaper (Only for GNOME right now)
 ## DW is another smaller project I created, it has a clock and weather information. The wallpaper updates every minute and mainly uses [Tabliss](https://web.tabliss.io/) (a chrome and firefox extension). Also, it updates the background image every 5 minutes from [Unsplash](https://unsplash.com).
 ![Image](./README.png)
 # Configuration
