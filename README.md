@@ -31,6 +31,8 @@ $ pm2 save
 - [x] Dynamic clock and weather widget.
 - [x] Dynamic wallpaper change.
 - [x] Offline checking ![BETA](./BETA.svg)
+- [x] Support for GNOME based distributions and flavours. (such as Ubuntu, PopOS, debian (if installed with GNOME)) 
+- [ ] Support for different window managers
 - [ ] Windows support
 - [ ] MacOS support (needs contributors)
 # Known bugs
