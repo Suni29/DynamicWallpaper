@@ -28,9 +28,9 @@ $ pm2 start index.js --name DynamicWallpaper
 $ pm2 save
 ```
 # Features
-- ### [x] Dynamic clock and weather widget.
-- ### [x] Dynamic wallpaper change.
-- ### [x] Offline checking ![BETA](./BETA.svg)
+- [x] Dynamic clock and weather widget.
+- [x] Dynamic wallpaper change.
+- [x] Offline checking ![BETA](./BETA.svg)
 # Known bugs
 - ### Offline wallpaper gets overwritten.
 - ### If the program is started offline then the background image will be black for 1-2 updates.
