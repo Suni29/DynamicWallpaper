@@ -56,7 +56,7 @@ const init = async () => {
   await page.evaluate(() => {
     const selector = '.image';
     const element = document.querySelector(selector);
-    element.style.opacity = `${config.backgroundOpacity ? config.backgroundOpacity.toString() : 0.5}`;
+    element.style.opacity = `0.5`;
   });
 
   // Delete greeting
@@ -85,7 +85,7 @@ const init = async () => {
   // Set font size
   await page.evaluate(() => {
     const selector = 'div.Widget:nth-child(2)';
-    const style = 'font-size: ' + (config.weatherWidgetFontSize || 56) + 'px; font-family: \'Ubuntu\', sans-serif;';
+    const style = 'font-size: ' + 56 + 'px; font-family: \'Ubuntu\', sans-serif;';
     const element = document.querySelector(selector);
     element.style.cssText += style;
   });
@@ -93,7 +93,7 @@ const init = async () => {
   // Set font size for time
   await page.evaluate(() => {
     const selector = 'div.Widget:nth-child(1)';
-    const style = 'font-family: \'Ubuntu\', sans-serif; font-size: ' + (config.timeWidgetFontSize || 36) + 'px;';
+    const style = 'font-family: \'Ubuntu\', sans-serif; font-size: ' + 36 + 'px;';
     const element = document.querySelector(selector);
     element.style.cssText += style;
   });
