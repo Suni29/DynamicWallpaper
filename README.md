@@ -1,5 +1,5 @@
 # Dynamic Wallpaper (Only for GNOME right now)
-## DW is another smaller project I created, it has a clock and weather information. The wallpaper updates every minute and mainly uses [Tabliss](https://web.tabliss.io/) (a chrome and firefox extension). Also, it updates the background image every 5 minutes from [Unsplash](https://unsplash.com).
+DW is another smaller project I created, it has a clock and weather information. The wallpaper updates every minute and mainly uses [Tabliss](https://web.tabliss.io/) (a chrome and firefox extension). Also, it updates the background image every 5 minutes from [Unsplash](https://unsplash.com).
 ![Image](./README.png)
 # Configuration
 ```json
@@ -34,7 +34,7 @@ $ pm2 save
 - [ ] Windows support
 - [ ] MacOS support (needs collaborators)
 # Known bugs
-- ### Offline wallpaper gets overwritten.
-- ### If the program is started offline then the background image will be black for 1-2 updates.
+- Offline wallpaper gets overwritten.
+- If the program is started offline then the background image will be black for 1-2 updates.
 # Credits
 ### [Tabliss](https://tabliss.io/) and [Unsplash](https://unsplash.com).
