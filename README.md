@@ -10,7 +10,7 @@
     // Weather location (I recommend testing the location it on web.tabliss.io first then put it in this config)
     "weatherLocation": "Budapest",
     // Full location for an offline wallpaper.
-    "offlineWallpaperPath": "/home/suni29/Pictures/Wallpapers/SurfacePro/dark-mountain-valley-wheat-field.jpg"
+    "offlineWallpaperPath": "/home/suni29/Pictures/Wallpapers/wallpaper.jpg"
 }
 ```
 # Autostart
