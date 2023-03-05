@@ -14,7 +14,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const config = JSON.parse(readFileSync('./config.json', 'utf-8'));
 
 const init = async () => {
-  browser = await puppeteer.launch({ headless: true });
+  browser = await puppeteer.launch({ headless: true, args: ['--no-first-run', '--no-sandbox', '--no-zygote'] });
   page = await browser.newPage();
 
   await page.goto('https://web.tabliss.io/', {waitUntil: "domcontentloaded"});
