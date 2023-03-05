@@ -1,5 +1,5 @@
 # Dynamic Wallpaper (For only GNOME right now)
-## DW is another smaller project I created, it has a clock and weather information. The wallpaper updates every minute and mainly uses [Tabliss](https://web.tabliss.io/) (a chrome and firefox extension). Also, it updates the background image every 5 minutes from [Unsplash](https://unsplash.com).
+DW is another smaller project I created, it has a clock and weather information. The wallpaper updates every minute and mainly uses [Tabliss](https://web.tabliss.io/) (a chrome and firefox extension). Also, it updates the background image every 5 minutes from [Unsplash](https://unsplash.com).
 ![Image](./README.png)
 # Configuration
 ```json
@@ -14,21 +14,21 @@
 }
 ```
 # Autostart
-### To autostart DW use [PM2](https://pm2.keymetrics.io/), here is a guide on how to do it:
+To autostart DW use [PM2](https://pm2.keymetrics.io/), here is a guide on how to do it:
 ```bash
 $ pm2 startup
 ```
-### Follow the instructions from the output then run this 2 commands:
+Follow the instructions from the output then run this 2 commands:
 ```bash
 $ pm2 start index.js --name DynamicWallpaper
 $ pm2 save
 ```
 # Features
-- ### [x] Dynamic clock and weather widget.
-- ### [x] Dynamic wallpaper change.
-- ### [x] Offline checking ![BETA](./BETA.svg)
+- [x] Dynamic clock and weather widget.
+- [x] Dynamic wallpaper change.
+- [x] Offline checking ![BETA](./BETA.svg)
 # Known bugs
-- ### Offline wallpaper gets overwritten.
-- ### If the program is started offline then the background image will be black for 1-2 updates.
+- Offline wallpaper gets overwritten.
+- If the program is started offline then the background image will be black for 1-2 updates.
 # Credits
-### [Tabliss](https://tabliss.io/) and [Unsplash](https://unsplash.com).
+[Tabliss](https://tabliss.io/) and [Unsplash](https://unsplash.com).
